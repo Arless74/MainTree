@@ -1,8 +1,10 @@
 import {  Router  } from 'express'
-
 const router = Router()
 
-//Routing
+//Autenticacion y Registro
 
+router.post('/auth/register',(req, res) =>{ //Path Metodo Post
+    console.log(req.body)
+})
 
 export default router
