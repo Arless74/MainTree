@@ -1,6 +1,6 @@
 import mongoose from 'mongoose'; //importacion de mongoose para la conexion de MongoDB
 import colors from 'colors' //importacion para dar color a lo impreso 
-
+import User  from '../models/User'
 
 export const connectDB = async () => {
     try {
